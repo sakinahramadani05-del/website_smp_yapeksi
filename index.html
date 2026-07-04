@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMP SWASTA YAPEKSI</title>
+    <link rel="icon" type="image/jpeg" href="Logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <style>
+    .navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar-custom {
+            background-color: #0f172a;
+        }
+        .navbar-custom .nav-link,
+        .navbar-custom .navbar-brand {
+            color: white;
+            font-weight: 600;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #ffd700;
+        }
+        
+        .card{
+            height:100%;
+            border:none;
+            transition:0.3s;
+        }
+        .card img{
+            width:100%;
+            object-fit:cover;
+            object-position:center;
+        }
+       
+        .ratio-4x3{
+            aspect-ratio: 4/3;
+            overflow:hidden;
+            border-radius:8px 8px 0 0;
+        }
+        .ratio-4x3 img{
+            height:100%;
+        }
+        
+        .foto-kepsek-wrapper{
+            width:220px;
+            height:220px;
+            margin:0 auto 1rem;
+        }
+        .foto-kepsek-wrapper img{
+            width:100%;
+            height:100%;
+            border-radius:50%;
+            border:4px solid #fff;
+            box-shadow:0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card-body{
+            display:flex;
+            flex-direction:column;
+            padding:1.25rem;
+        }
+        .card-title{
+            font-size:1rem;
+            font-weight:600;
+            flex-grow:1;
+            margin-bottom:1rem;
+        }
+        .btn-primary{
+            border-radius:8px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa; 
+        }     
+ </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpeg" alt="Logo Yapeksi" width="40" height="40"  class="me-2">SMP SWASTA YAPEKSI</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">TENTANG SEKOLAH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fasilitas.html">FASILITAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">BERITA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dataguru.html">DATA GURU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">KONTAK</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-12">
+                <img src="foto pager.jpeg" alt="Banner SMP Yapeksi" style="width:100%; height:auto; display:block;">
+            </div>
+        </div>
+    </div>
+
+    <div style="background:#0f172a; padding:10px; margin-top:0px;">
+        <marquee behavior="scroll" direction="left" style="font-size:16px; font-weight:bold; color:#ffd700">
+            SELAMAT DATANG DI WEBSITE SMP SWASTA YAPEKSI | Membangun Generasi yang Disiplin, Berprestasi, dan Berbudi Pekerti atas Dasar Iman dan Taqwa
+        </marquee>
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4 align-items-stretch">
+    
+            <div class="col-lg-4 col-md-5">
+                <div class="card shadow-sm h-50 text-center">
+                    <div class="card-body">
+                        <div class="foto-kepsek-wrapper">
+                            <img src="foto bapak kepsek.jpeg" alt="Foto Kepala Sekolah">
+                        </div>
+                        
+                        <h5 class="card-title fw-bold mb-1">Bambang Eko Susilo S.Pd.I</h5>
+                        <p class="card-text text-muted">Kepala Sekolah</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-7">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold mb-4">Sambutan Kepala Sekolah</h3>
+                        
+                        <div class="sambutan-text" style="text-align: justify; line-height: 1.8;">
+                            <p>Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
+                            <p>Salam Sejahtera<br>
+
+                            <p>Puji syukur kita panjatkan ke hadirat Allah SWT atas segala rahmat dan karunia-Nya sehingga website resmi SMP Swasta YAPEKSI dapat hadir sebagai media informasi dan komunikasi bagi seluruh warga sekolah serta masyarakat.</p>
+
+                            <p>Website ini dibuat untuk memberikan informasi mengenai profil sekolah, kegiatan, fasilitas, serta berbagai program yang dilaksanakan di SMP Swasta YAPEKSI. Kami berharap website ini dapat menjadi sarana yang bermanfaat dalam mendukung keterbukaan informasi dan mempererat hubungan antara sekolah, peserta didik, orang tua, dan masyarakat.</p>
+                            <p>SMP Swasta YAPEKSI berkomitmen untuk terus meningkatkan kualitas pendidikan serta membentuk peserta didik yang beriman dan bertakwa kepada Tuhan Yang Maha Esa, berakhlak mulia, disiplin, mandiri, serta mampu berprestasi di bidang akademik maupun non-akademik.</p>
+
+                            <p>Akhir kata, kami mengucapkan terima kasih atas dukungan dan kepercayaan yang diberikan kepada SMP Swasta YAPEKSI. Semoga website ini dapat memberikan manfaat bagi kita semua.</p>
+                            <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh<br>
+                            Om Shanti Shanti Shanti Om</p>
+
+                            <p class="mt-4">Kepala Sekolah<br>
+                            SMP SWASTA YAPEKSI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                
+                <div class="col-md-7">
+                    <h3 class="fw-bold mb-2" style="color: #0d1b2a;">Tentang SMP Swasta YAPEKSI</h3>
+                    <hr class="mb-4" style="width: 60px; height: 3px; background-color: #ffb703; border: none; opacity: 1;">
+                    
+                    <p class="text-muted mb-4" style="line-height: 1.8; text-align: justify; font-size: 1.05rem;">
+                        SMP Swasta YAPEKSI merupakan sekolah yang berada di bawah naungan Yayasan Pendidikan Pancasila dan telah berdiri sejak tahun 1964. 
+                        Berlokasi di Jl. Masjid Subulussalam, Kec. Sawit Seberang, Kab. Langkat. Sekolah ini dikenal dengan pendidikannya yang tinggi dan
+                        telah meraih Akreditas A dan berkomitmen memberikan pendidikan berkualitas, berkarakter, serta berprestasi.... 
+                    </p>
+                    
+                    <a href="tentang.html" class="btn btn-warning fw-bold text-black px-4 py-2 shadow-sm">
+                        Baca Selengkapnya
+                    </a>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="position-relative ratio-4x3">
+                        <img src="upacara.jpeg" alt="Aktivitas SMP Swasta YAPEKSI" class="rounded shadow">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <h3 class="text-center mb-4 fw-bold">BERITA SMP SWASTA YAPEKSI</h3>
+
+        <div class="row g-4">
+            
+            <div class="col-12 col-md-4">
+            <div class="card shadow">
+                <img src="pengumuman libur.jpeg" class="card-img-top" alt="Kunjungan Kodim 0203">
+                <div class="card-body">
+                    <h5 class="card-title">Pengumuman Libur Sekolah Akhir Semester</h5>
+                    <a href="detaillibur" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="col-12 col-md-4">
+            <div class="card shadow">
+                <img src="Formulir.jpeg" class="card-img-top" alt="Kunjungan Kodim 0203">
+                <div class="card-body">
+                    <h4 class="card-title">Penerimaan Peserta Didik Baru (PPDB) SMP Swasta Yapeksi Tahun Ajaran 2026/2027</h4>
+                    <a href="detailbrouser" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card shadow w-100">
+                    <div class="ratio-4x3">
+                        <img src="foto pak Arya.jpg" alt="Arya Sinulingga Berkunjung">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Arya Sinulingga Berkunjung Ke SMP/SMA Yapeksi PTPN.II Sawit Seberang</h5>
+                        <a href="detail.html" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card shadow w-100">
+                    <div class="ratio-4x3">
+                        <img src="foto polsek.jpg" alt="Police Goes To School">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Giat Police Goes To School, Kapolsek Padang Tualang: Pelajar Jangan Mau Diprovokasi</h5>
+                        <a href="detailpolsek" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card shadow w-100">
+                    <div class="ratio-4x3">
+                        <img src="kodim.jpg" alt="Kunjungan Kodim 0203">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kunjungan Kodim 0203/Langkat ke SMP YAPEKSI Sawit Seberang</h5>
+                        <a href="detailkodim" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer style="background: linear-gradient(#0f172a, #1e293b); color: white; text-align: center; padding: 40px 0; margin-top: 50px; width: 100%;">
+        <div class="container-fluid p-0">
+            <p class="fw-bold mb-2" style="font-size: 1.5rem;">SMP SWASTA YAPEKSI</p>
+            
+            <p class="mb-1">Jl. Masjid Subulussalam, Kec. Sawit Seberang, Kab. Langkat</p>
+            
+            <p class="mb-2">Telp: 082173510295 | Email: yapeksi@gmail.com</p>
+            
+            <p class="mb-0">© 2026 SMP SWASTA YAPEKSI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
